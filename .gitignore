@@ -6,9 +6,6 @@
 .pnp.js
 .yarn/install-state.gz
 
-/package-locl.json
-/.env
-
 # testing
 /coverage
 
@@ -16,6 +13,9 @@
 /.next/
 /out/
 
+/package-lock.json
+/.env
+.env
 # production
 /build
 
