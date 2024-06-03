@@ -1,9 +1,10 @@
-import Image from "next/image";
+import HomeHero from "@/components/hero/HomeHero";
 
 export default function Home() {
+
   return (
-    <main className="overflow-hidden">
-      NEXT APP
-    </main>
+    <div className="overflow-hidden">
+      <HomeHero />
+    </div>
   );
 }

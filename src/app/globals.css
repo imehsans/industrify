@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -14,20 +16,34 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
+} */
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+   font-family: "Montserrat", sans-serif;
+ 
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+
+@keyframes rotate {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+#rotating-svg {
+  animation: rotate 4s infinite linear;
+  transform-origin: center;
+}
+ 
+.hero {
+  background-image: url(https://s3-alpha-sig.figma.com/img/4a1e/159c/b197067028e9977fde0569fe6da84c35?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gRrGhLE5WVct~gFlsp8wIJi5v5LbSnb6G2qB-6B0KN~G~oBRL1gg2dTZKZzEWy5lOL7sUhr~0FUbbGk-VZD-llbp3y6SuVmgcJOKeJXIwZwlNSnM8XmmsJydy8zvJyg4OFx8DIXFNVSkAYYF9nPZSyO9~E3PxF~R6ldBp~sR8YxyIpcg-3aS5paf5Gl12RXLSaBk8VsevslEuUOvIoNvcYMp0UQjHDyypKkdRgNu9-298PEDtaVA4svP3xJzY0gCphm~JSNnFkQPck7fiQFTOw81gYOr7qHT2wJU6G-NhoX-e9jNYReGUs1FgKMzhCX4kfpeNuCgHE3GEwhTa41miw__);
 }
