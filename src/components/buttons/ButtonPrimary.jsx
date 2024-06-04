@@ -4,7 +4,7 @@ const ButtonPrimary = ({ onClickFxns, value, className }) => {
    return (
       <div className='text-sm'>
          <button
-            className={`bg-secondary uppercase hover:bg-primary  rounded py-[10px] text-white px-4 ${className}`}
+            className={`bg-secondary uppercase hover:bg-primary  rounded  text-white  ${className}`}
             onClick={onClickFxns}
          >
             <span>

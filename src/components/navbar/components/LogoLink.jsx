@@ -5,9 +5,9 @@ import Image from 'next/image';
 
 const LogoLink = () => {
    return (
-      <div className=" text-center text-3xl text-secondary sm:mb-0">
+      <div className="text-3xl text-center text-secondary sm:mb-0">
          <Link href="/">
-            <Image className='h-full w-full' src={Logo} alt="logo" />
+            <Image className='w-full h-full' src={Logo} alt="logo" />
          </Link>
       </div>
    );
