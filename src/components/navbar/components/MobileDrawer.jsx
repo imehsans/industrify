@@ -6,6 +6,8 @@ import { Avatar } from '@nextui-org/avatar';
 import Profile from '../../../assets/images/profile.png'
 const MobileDrawer = ({ isOpen, onClose }) => {
    const [userName, setUserName] = useState("Osama Babar")
+   const session = true
+   const admin = true
 
    return (
       <div
@@ -51,7 +53,6 @@ const MobileDrawer = ({ isOpen, onClose }) => {
                   <li className="px-4 py-2 text-lg font-normal text-white hover:text-primary hover:bg-secondary hover:font-bolder">
                      <Link href="/blogs">Blogs</Link>
                   </li>
-
 
                </ul>
             </div>

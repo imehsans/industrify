@@ -47,3 +47,15 @@ body {
 .hero {
   background-image: url(https://s3-alpha-sig.figma.com/img/4a1e/159c/b197067028e9977fde0569fe6da84c35?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gRrGhLE5WVct~gFlsp8wIJi5v5LbSnb6G2qB-6B0KN~G~oBRL1gg2dTZKZzEWy5lOL7sUhr~0FUbbGk-VZD-llbp3y6SuVmgcJOKeJXIwZwlNSnM8XmmsJydy8zvJyg4OFx8DIXFNVSkAYYF9nPZSyO9~E3PxF~R6ldBp~sR8YxyIpcg-3aS5paf5Gl12RXLSaBk8VsevslEuUOvIoNvcYMp0UQjHDyypKkdRgNu9-298PEDtaVA4svP3xJzY0gCphm~JSNnFkQPck7fiQFTOw81gYOr7qHT2wJU6G-NhoX-e9jNYReGUs1FgKMzhCX4kfpeNuCgHE3GEwhTa41miw__);
 }
+
+/* .water-mark {
+  background-image: '../assets/svgs/about-ind-watrrtMark.svg' !important;
+} */
+
+/* .water-mark {
+  background-image: url(~@assets/svgs/about-ind-watrrtMark.svg) !important;
+} */
+
+.water-mark {
+  background-image: url('/assets/images/about-watermark.png') ;
+}

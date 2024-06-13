@@ -10,14 +10,14 @@ module.exports = {
       keyframes: {
         rotateY: {
           '0%': { transform: 'rotateY(0)' },
-          '25%': { transform: 'rotateY(90deg)' },
-          '50%': { transform: 'rotateY(180deg)' },
-          '75%': { transform: 'rotateY(270deg)' },
-          '100%': { transform: 'rotateY(360deg})' },
+          '25%': { transform: 'rotateY(180deg)' },
+          '50%': { transform: 'rotateY(0deg)' },
+          '75%': { transform: 'rotateY(0deg)' },
+          '100%': { transform: 'rotateY(180deg})' },
         },
       },
       animation: {
-        rotateY: 'rotateY 4s linear infinite',
+        rotateY: 'rotateY 6s linear infinite',
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -39,6 +39,7 @@ module.exports = {
       fontSize: {
         xxl: '53px',
         xl: '40px',
+        'sm-xl': '32px',
         xlg: '24px',
         lg: '20px',
         xmd: '18px',
@@ -70,5 +71,6 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+  ],
 };

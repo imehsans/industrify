@@ -11,7 +11,7 @@ import ButtonPrimary from '../buttons/ButtonPrimary';
 import BrandTag from './components/BrandTag';
 
 const Navbar = () => {
-   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+   const [isDrawerOpen, setIsDrawerOpen] = useState(true);
 
    const handleDrawerToggle = () => {
       setIsDrawerOpen(!isDrawerOpen);
